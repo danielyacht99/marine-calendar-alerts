@@ -1,0 +1,34 @@
+{
+  "calendar_id": "c_e9e5d5f677e5fc34759849aee1823b00916c9eb4582668ea04237f421a2cd365@group.calendar.google.com",
+  "forecast_days": 3,
+  "location": {
+    "name": "Herzliya Marina",
+    "latitude": 32.162,
+    "longitude": 34.792
+  },
+  "thresholds": {
+    "wave_height_m": 1.0,
+    "wind_speed_kn": 13.0,
+    "current_speed_kn": 1.0,
+    "storm_combo": {
+      "wave_height_m": 1.8,
+      "wind_speed_kn": 20.0
+    },
+    "severe": {
+      "wave_height_m": 2.5,
+      "wind_speed_kn": 25.0,
+      "current_speed_kn": 2.0
+    }
+  },
+  "copernicus": {
+    "enabled": false,
+    "username": "",
+    "password": "",
+    "wave_dataset_id": "cmems_mod_med_wav_anfc_4.2km_PT1H-i",
+    "wave_variable": "VHM0",
+    "physics_dataset_id": "cmems_mod_med_phy-cur_anfc_4.2km_PT1H-m",
+    "u_current_variable": "uo",
+    "v_current_variable": "vo"
+  },
+  "stormglass_api_key": ""
+}
